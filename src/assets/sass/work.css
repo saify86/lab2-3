@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.work {
+  margin-bottom: 80px;
+}
+.work .work__header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 54px;
+}
+.work .work__part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.work .work__part img {
+  margin-bottom: 24px;
+}
+.work .work__part h4 {
+  margin-bottom: 24px;
+}
+.work .work__part p {
+  font-size: 18px;
+}
+@media screen and (max-width: 576px) {
+  .work .work__part p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .work p {
+    margin-bottom: 50px;
+  }
+  .work .work__header {
+    margin-bottom: 25px;
+  }
+}/*# sourceMappingURL=work.css.map */

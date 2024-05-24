@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* стили для классов */
+.class {
+  background-color: #dfe1ff;
+  padding-bottom: 86px;
+}
+@media screen and (max-width: 576px) {
+  .class {
+    background-color: #fff;
+  }
+}
+@media screen and (min-width: 576px) {
+  .class {
+    padding-top: 73px;
+  }
+}
+.class .class__content {
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+}
+.class .class__content h2 {
+  font-size: 31.5px;
+}
+@media screen and (max-width: 576px) {
+  .class .class__content h2 {
+    margin-bottom: 0px;
+    font-size: 27px;
+    line-height: 32px;
+  }
+}
+.class .class__content p {
+  font-size: 18px;
+}
+@media screen and (max-width: 576px) {
+  .class .class__content p {
+    font-size: 16px;
+  }
+}
+.class .class__content .class__content-card {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+@media screen and (max-width: 576px) {
+  .class .class__content .class__content-card {
+    margin-top: 10px;
+    box-shadow: 0px 10px 50px 0px rgba(64, 71, 226, 0.2);
+  }
+}
+.class .class__content .class__content-card img {
+  border-radius: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+/* конец стилей для классов */
+/*# sourceMappingURL=class.css.map */

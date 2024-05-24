@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* стили для дистанта */
+.distance {
+  background-color: #DFE1FF;
+  padding-top: 73px;
+  padding-bottom: 72px;
+}
+.distance__text h3 {
+  margin-bottom: 14px;
+}
+.distance__text p {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .distance__text p {
+    color: #8F99AC;
+  }
+}
+.distance__text button:hover {
+  box-shadow: 0 0 10px 0 #9283FF;
+}
+@media screen and (max-width: 576px) {
+  .distance__text button {
+    width: 100%;
+  }
+}
+.distance .distance__card {
+  background-color: #fff;
+  border-radius: 35px;
+  padding: 30px 50px 30px 30px;
+}
+.distance .distance__card p {
+  margin-bottom: 18px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.distance .distance__card .distance__card-profile {
+  display: flex;
+}
+.distance .distance__card .distance__card-profile p {
+  font-size: 16px;
+}
+.distance .distance__card .distance__card-profile p span {
+  color: #8F99AC;
+}
+.distance .distance__card-profile-face {
+  width: 65px;
+  height: 65px;
+  -webkit-clip-path: circle(50% at center);
+          clip-path: circle(50% at center);
+  border-radius: 100px;
+  margin-right: 16px;
+}
+@media screen and (max-width: 992px) {
+  .distance .distance__text {
+    margin-bottom: 40px;
+  }
+  .distance .distance__card p:first-child {
+    font-size: 16px;
+  }
+}
+/* конец стилей для дистанта */
+/*# sourceMappingURL=distance.css.map */

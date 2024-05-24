@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* стили для главного блока */
+.promo {
+  margin-bottom: 80px;
+}
+.promo .promo__content .promo__content-text {
+  margin: auto;
+}
+.promo .promo__content .promo__content-text p {
+  color: #8F99AC;
+  margin-bottom: 19px;
+  font-size: 18px;
+}
+@media screen and (max-width: 576px) {
+  .promo .promo__content .promo__content-text p {
+    font-size: 16px;
+  }
+}
+.promo .promo__content .promo__content-text h2 {
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 576px) {
+  .promo .promo__content .promo__content-text h2 {
+    line-height: 32px;
+  }
+}
+.promo .promo__content .promo__content-text .promo__content-button {
+  display: flex;
+}
+@media screen and (max-width: 576px) {
+  .promo .promo__content .promo__content-text .promo__content-button {
+    flex-direction: column;
+  }
+}
+.promo .promo__content .promo__content-text .promo__content-button button {
+  margin: 0 7px 7px 0;
+}
+@media screen and (max-width: 576px) {
+  .promo .promo__content .promo__content-text .promo__content-button button {
+    width: 100%;
+  }
+}
+.promo .promo__content .promo__content-text .promo__content-button .promo__content-button-demo img {
+  padding-right: 10px;
+}
+.promo .promo__content .promo__content-text .promo__content-button .promo__content-button-demo:hover {
+  box-shadow: 0 0 10px 0 #9283FF;
+}
+.promo .promo__content .promo__content-text .promo__content-button .promo__content-button-lesson:hover {
+  box-shadow: 0 0 10px 0 #9283FF;
+}
+.promo .promo__content .promo__content-cover {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+@media screen and (max-width: 992px) {
+  .promo .promo__content .promo__content-cover {
+    margin-top: 30px;
+    justify-content: left;
+  }
+}
+.promo .promo__content .promo__content-cover .promo__content-cover-mobile {
+  box-shadow: 0px 10px 50px 0px rgba(64, 71, 226, 0.2);
+}
+@media screen and (max-width: 576px) {
+  .promo .promo__content .promo__content-cover .promo__content-cover-desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 577px) {
+  .promo .promo__content .promo__content-cover .promo__content-cover-mobile {
+    display: none;
+  }
+}
+.promo .promo__content .promo__content-cover img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+/* конец стилей для главного блока */

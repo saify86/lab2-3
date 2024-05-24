@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* стили для футера */
+footer {
+  padding-top: 65px;
+  color: #8F99AC;
+}
+@media screen and (max-width: 576px) {
+  footer {
+    padding-top: 60px;
+  }
+}
+footer .footer__line {
+  height: 1px;
+  width: 100%;
+  background-color: #EAEAEA;
+}
+footer .footer__group {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+footer .footer__fond-logo {
+  height: 71px;
+}
+footer li {
+  color: #8F99AC;
+}
+footer img {
+  height: 53px;
+}
+footer .footer__element {
+  display: flex;
+}
+footer .just-right {
+  justify-content: right;
+  text-align: right;
+}
+@media screen and (max-width: 576px) {
+  footer .footer__element {
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+  }
+}
+/* конец стилей для футера */
+/*# sourceMappingURL=footer.css.map */

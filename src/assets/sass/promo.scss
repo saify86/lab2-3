@@ -1,0 +1,88 @@
+/* стили для главного блока */
+.promo{
+    .promo__content{
+
+        .promo__content-text{
+            margin: auto;
+            p{
+                color: $color_gray;
+                margin-bottom: 19px;
+                font-size: 18px;
+                @media screen and (max-width: $sm) {
+                    font-size: 16px;
+                }
+            }
+            h2{
+                margin-bottom: 16px;
+                @media screen and (max-width: $sm) {
+                    line-height: 32px;
+                }
+            }
+            .promo__content-button{
+                display: flex;               
+                @media screen and (max-width: $sm) {
+                    flex-direction: column;  
+                }
+                button{
+                    margin: 0 7px 7px 0; 
+                    @media screen and (max-width: $sm) {
+                        width: 100%;                  
+                    }
+                }
+                .promo__content-button-demo img{
+                    padding-right: 10px;
+                }
+
+                .promo__content-button-demo{           
+                    &:hover {
+                        box-shadow: 0 0 10px 0 $shadow_3;
+                    }
+                }
+
+                .promo__content-button-lesson{            
+                    &:hover {
+                        box-shadow: 0 0 10px 0 $shadow_3;
+                    }
+                }
+
+            }
+
+
+        }
+        .promo__content-cover{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            @media screen and (max-width: $lg) {
+                margin-top: 30px;
+                justify-content: left;
+            }
+
+            .promo__content-cover-mobile{
+                box-shadow: 0px 10px 50px 0px #4047e233;
+
+            }
+            @media screen and (max-width:$sm){
+                .promo__content-cover-desktop{
+                    display: none;
+                }
+            }
+            @media screen and (min-width:($sm + 1)){
+                .promo__content-cover-mobile{
+                    display: none;
+                }
+            }
+            img{
+                object-fit: contain;
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
+
+            }
+        }
+    }
+    
+    margin-bottom: 80px;
+}
+/* конец стилей для главного блока */

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* стили для возможностей */
+.opportunities {
+  margin-bottom: 67px;
+}
+.opportunities .opportunities__header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+.opportunities .opportunities__card {
+  width: 285px;
+  height: 320px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.opportunities .opportunities__card h4 {
+  text-align: center;
+  margin-bottom: 18px;
+}
+.opportunities .opportunities__card p {
+  font-size: 18px;
+}
+.opportunities .opportunities__card img {
+  margin-top: 48px;
+  height: 90px;
+  margin-bottom: 26px;
+}
+.opportunities .opportunities__card-blue {
+  background-color: #DFE1FF;
+  box-shadow: 0px 10px 50px 0px rgba(64, 71, 226, 0.2);
+}
+.opportunities .opportunities__card-orange {
+  background-color: #FFE1AD;
+  box-shadow: 0px 10px 50px 0px rgba(252, 162, 6, 0.2);
+}
+.opportunities .opportunities__swiper-slide {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 38px;
+  width: auto;
+}
+
+/* конец стилей для возможностей *//*# sourceMappingURL=opportunities.css.map */

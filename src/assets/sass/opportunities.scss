@@ -1,0 +1,49 @@
+/* стили для возможностей */
+.opportunities{
+    margin-bottom: 67px;
+
+    .opportunities__header{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+    .opportunities__card{
+        //padding: 48px 45px 0px 45px;
+        width: 285px;
+        height: 320px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h4{
+            text-align: center;
+            margin-bottom: 18px;
+        }
+        p{
+            font-size: 18px;
+        }
+        img{
+            margin-top: 48px;
+            height: 90px;
+            margin-bottom: 26px;
+        }
+    }
+    .opportunities__card-blue{
+        background-color: #DFE1FF;
+        box-shadow: 0px 10px 50px 0px #4047E233;
+
+    }
+    .opportunities__card-orange{
+        background-color: #FFE1AD;
+        box-shadow: 0px 10px 50px 0px #FCA20633;
+
+    }
+ 
+    .opportunities__swiper-slide{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 38px;
+        width: auto;
+    }
+}
+/* конец стилей для возможностей */
